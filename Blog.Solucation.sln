@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog.Model", "Blog.Model", "{C96EAE52-E477-4B7C-9FED-A1231BA5EAE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.API", "Blog.API\Blog.API.csproj", "{BAF1CC5D-6D57-4837-B7A0-86164DE87DB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Model", "BasicData_DDD.Model\DDD.Model.csproj", "{CAD13C49-4429-431E-936B-807ABEAF76BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogRepository", "BlogRepository\BlogRepository.csproj", "{68555E02-492C-4718-BBFD-2CA995ECC9A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogService", "BlogService\BlogService.csproj", "{2EC2A774-C55B-49E7-9218-6B8F62624036}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.AutoFac", "Blog.AutoFac\Blog.AutoFac.csproj", "{440F2CEF-3972-471B-AE12-B5F2B486FEAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.MiddlerServices", "Blog.MiddlerServices\Blog.MiddlerServices.csproj", "{E5214E7F-0977-4DE5-AB4C-5DAD6BDD65C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Common", "Blog.Common\Blog.Common.csproj", "{DBE86EEC-904A-4E32-A41C-0E54045773B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAF1CC5D-6D57-4837-B7A0-86164DE87DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF1CC5D-6D57-4837-B7A0-86164DE87DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF1CC5D-6D57-4837-B7A0-86164DE87DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF1CC5D-6D57-4837-B7A0-86164DE87DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD13C49-4429-431E-936B-807ABEAF76BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD13C49-4429-431E-936B-807ABEAF76BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD13C49-4429-431E-936B-807ABEAF76BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD13C49-4429-431E-936B-807ABEAF76BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68555E02-492C-4718-BBFD-2CA995ECC9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68555E02-492C-4718-BBFD-2CA995ECC9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68555E02-492C-4718-BBFD-2CA995ECC9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68555E02-492C-4718-BBFD-2CA995ECC9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC2A774-C55B-49E7-9218-6B8F62624036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC2A774-C55B-49E7-9218-6B8F62624036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC2A774-C55B-49E7-9218-6B8F62624036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC2A774-C55B-49E7-9218-6B8F62624036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440F2CEF-3972-471B-AE12-B5F2B486FEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440F2CEF-3972-471B-AE12-B5F2B486FEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440F2CEF-3972-471B-AE12-B5F2B486FEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440F2CEF-3972-471B-AE12-B5F2B486FEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5214E7F-0977-4DE5-AB4C-5DAD6BDD65C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5214E7F-0977-4DE5-AB4C-5DAD6BDD65C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5214E7F-0977-4DE5-AB4C-5DAD6BDD65C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5214E7F-0977-4DE5-AB4C-5DAD6BDD65C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE86EEC-904A-4E32-A41C-0E54045773B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE86EEC-904A-4E32-A41C-0E54045773B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE86EEC-904A-4E32-A41C-0E54045773B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE86EEC-904A-4E32-A41C-0E54045773B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAD13C49-4429-431E-936B-807ABEAF76BF} = {C96EAE52-E477-4B7C-9FED-A1231BA5EAE0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F904A6E-837F-49DE-918E-4462633926F4}
+	EndGlobalSection
+EndGlobal
